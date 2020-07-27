@@ -51,7 +51,7 @@ function CartNumber({text , dispatch}) {
                 {!amount? 'Zero' : amount}
             </span>
             <Button variant="contained" onClick={handleIncrement} >Increment</Button>
-            <Button variant="contained" color="secondary" onClick={handleDecrement}>Decrement</Button>
+            <Button variant="contained" color="secondary" onClick={handleDecrement}>Decrease</Button>
         </div>
     )
 }
